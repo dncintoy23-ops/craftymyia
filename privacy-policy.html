@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — CraftyMyia (CraftyMyia.com)</title>
+  <meta name="description" content="Official Privacy Policy for CraftyMyia (CraftyMyia.com), including our Etsy digital crafting storefront, Pinterest API v5 integration, and YouTube API Services integration.">
+  <link rel="canonical" href="https://craftymyia.com/privacy.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-cream: #FAF5EE;
+      --card-surface: #FFFDF9;
+      --ink-dark: #2A1E17;
+      --ink-body: #4A3B32;
+      --ink-muted: #7A685D;
+      --terracotta: #CC5824;
+      --terracotta-dark: #A84316;
+      --teal: #0F766E;
+      --teal-soft: #E6F4F1;
+      --border-warm: #E8DEC8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-cream);
+      color: var(--ink-body);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      padding-bottom: 80px;
+    }
+    header.site-header {
+      background: rgba(255, 253, 249, 0.94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-warm);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 16px 24px;
+    }
+    .header-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--ink-dark);
+    }
+    .brand-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--terracotta), #E87A48);
+      color: #fff;
+      font-family: 'Fraunces', serif;
+      font-weight: 800;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(204, 88, 36, 0.25);
+    }
+    .brand-text strong {
+      display: block;
+      font-family: 'Fraunces', serif;
+      font-size: 20px;
+      color: var(--ink-dark);
+      line-height: 1.1;
+    }
+    .brand-text span {
+      font-size: 12px;
+      color: var(--ink-muted);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: var(--ink-body);
+      font-size: 14px;
+      font-weight: 600;
+      transition: color 0.15s;
+    }
+    .nav-links a:hover { color: var(--terracotta); }
+    .btn-etsy {
+      background: var(--terracotta);
+      color: #fff !important;
+      padding: 9px 18px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 13.5px;
+      box-shadow: 0 3px 10px rgba(204, 88, 36, 0.25);
+    }
+    .btn-etsy:hover { background: var(--terracotta-dark); }
+
+    .container {
+      max-width: 860px;
+      margin: 44px auto 0;
+      padding: 0 20px;
+    }
+    .policy-card {
+      background: var(--card-surface);
+      border: 1px solid var(--border-warm);
+      border-radius: 20px;
+      padding: 48px;
+      box-shadow: 0 12px 36px rgba(42, 30, 23, 0.05);
+    }
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      background: var(--teal-soft);
+      color: var(--teal);
+    }
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-size: 34px;
+      color: var(--ink-dark);
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+    .meta {
+      font-size: 14px;
+      color: var(--ink-muted);
+      margin-bottom: 28px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border-warm);
+    }
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 21px;
+      color: var(--ink-dark);
+      margin: 32px 0 12px;
+    }
+    p {
+      margin-bottom: 14px;
+      font-size: 15px;
+    }
+    ul {
+      padding-left: 22px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+    a {
+      color: var(--terracotta);
+      font-weight: 600;
+    }
+    .compliance-box {
+      background: #FDF8F2;
+      border: 1px solid #F0DFC8;
+      border-left: 4px solid var(--terracotta);
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin: 20px 0;
+    }
+    footer.site-footer {
+      max-width: 860px;
+      margin: 40px auto 0;
+      padding: 24px 20px 0;
+      text-align: center;
+      font-size: 13.5px;
+      color: var(--ink-muted);
+    }
+    footer.site-footer a {
+      color: var(--ink-body);
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    @media (max-width: 640px) {
+      .policy-card { padding: 28px 22px; }
+      h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-icon">C</div>
+        <div class="brand-text">
+          <strong>CraftyMyia</strong>
+          <span>Digital Cut Files &amp; 3D Print Studio</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Catalog (33 Packs)</a>
+        <a href="index.html#transparency">Creation Transparency</a>
+        <a href="terms.html">Terms &amp; License</a>
+        <a href="privacy.html" style="color: var(--terracotta);">Privacy Policy</a>
+        <a href="https://www.etsy.com/shop/CraftyMyia" target="_blank" rel="noopener" class="btn-etsy">Visit Etsy Shop &rarr;</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="policy-card">
+      <div class="badge-row">
+        <span class="badge">&#10003; Pinterest API v5 Compliant</span>
+        <span class="badge">&#10003; YouTube API Services Compliant</span>
+        <span class="badge">&#10003; 100% Family-Friendly Maker Studio</span>
+      </div>
+      <h1>Privacy Policy</h1>
+      <div class="meta">
+        <strong>Effective Date:</strong> October 24, 2026 &bull; <strong>Domain:</strong> <a href="https://craftymyia.com">CraftyMyia.com</a> &bull; <strong>Brand:</strong> CraftyMyia Studio
+      </div>
+
+      <p>
+        This Privacy Policy explains how <strong>CraftyMyia</strong> ("CraftyMyia Studio", "we", "us", or "our"), accessible at <a href="https://craftymyia.com">https://craftymyia.com</a> and via our official Etsy storefront (<a href="https://www.etsy.com/shop/CraftyMyia" target="_blank" rel="noopener">etsy.com/shop/CraftyMyia</a>), collects, uses, stores, and protects information across our website and our internal studio publishing tools (including our Pinterest API v5 and YouTube Data API v3 integrations).
+      </p>
+
+      <h2>1. Information We Collect</h2>
+      <ul>
+        <li><strong>Website Browsing:</strong> You may browse <a href="https://craftymyia.com">CraftyMyia.com</a> without creating an account or submitting personal information. Standard, anonymized web server logs (such as browser type, referring page, and timestamp) may be processed by our static hosting provider to maintain site security and reliability.</li>
+        <li><strong>Etsy Storefront Purchases:</strong> All digital product purchases (SVG cut files, 300 DPI sublimation PNGs, printable stickers, and 3D printable STL/3MF models) are processed directly through <strong>Etsy, Inc.</strong> (<a href="https://www.etsy.com/shop/CraftyMyia" target="_blank" rel="noopener">etsy.com/shop/CraftyMyia</a>). We never receive, view, or store your payment card or banking details; all checkout transactions are governed by Etsy's Privacy Policy.</li>
+        <li><strong>Voluntary Email Inquiries &amp; Updates:</strong> If you contact us directly via email or subscribe to optional crafting tips and freebie alerts, we collect only your email address and optional name solely to respond to your inquiry or deliver requested updates.</li>
+        <li><strong>First-Party Social API Credentials (Internal Only):</strong> For our own official CraftyMyia Pinterest Business account and CraftyMyia YouTube channel, our internal studio automation system stores first-party OAuth 2.0 access and refresh tokens issued to our studio accounts.</li>
+      </ul>
+
+      <h2>2. Pinterest API v5 Integration &amp; Data Usage</h2>
+      <div class="compliance-box">
+        <p style="margin-bottom: 0;">
+          <strong>First-Party Business Publishing Only:</strong> CraftyMyia uses the official <strong>Pinterest API v5</strong> exclusively as an internal studio publishing tool to schedule and publish product showcase pins, crafting tutorials, and 3D print inspiration to <strong>our own official CraftyMyia Pinterest Business account</strong>. We do not offer third-party login, and we never access, collect, read, or store data belonging to any external Pinterest user.
+        </p>
+      </div>
+      <ul>
+        <li><strong>OAuth 2.0 Authentication:</strong> When we connect our official CraftyMyia Pinterest Business account, Pinterest issues an OAuth 2.0 access token and refresh token (using authorized scopes such as <code>boards:read</code>, <code>boards:write</code>, <code>pins:read</code>, <code>pins:write</code>, and <code>user_accounts:read</code>). We never view or store any Pinterest account passwords.</li>
+        <li><strong>Board &amp; Pin Metadata:</strong> Our publishing tool stores only the IDs of our own CraftyMyia Pinterest boards and the pins we publish, solely to organize product categories (3D Print STLs, SVG Cut Files, Sublimation Clipart), pace scheduled posts within Pinterest API rate limits, and prevent duplicate pins.</li>
+        <li><strong>Zero Third-Party Sharing:</strong> Pinterest API data and OAuth tokens are never sold, rented, shared, licensed, or transmitted to any third party, advertising network, or data broker.</li>
+      </ul>
+
+      <h2>3. YouTube API Services &amp; Automated Video Publishing</h2>
+      <p>
+        CraftyMyia uses <strong>YouTube API Services</strong> (YouTube Data API v3) to upload and schedule original crafting timelapses, 3D model turntables, Cricut/laser cutting demonstrations, and product showcase Shorts to our official CraftyMyia YouTube channel.
+      </p>
+      <ul>
+        <li>By interacting with our embedded YouTube content or official YouTube channel integrations, users are notice-bound by and subject to the <strong>Google Privacy Policy</strong> available at <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener">http://www.google.com/policies/privacy</a>, as well as the <strong>YouTube Terms of Service</strong> available at <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">https://www.youtube.com/t/terms</a>.</li>
+        <li>Our YouTube API integration only authenticates our own first-party studio channel via Google OAuth 2.0. We do not collect, store, or process YouTube API data from external website visitors.</li>
+        <li>Any authorized account holder may revoke our studio application's access to their Google/YouTube data at any time via the official <strong>Google Security Settings page</strong> at <a href="https://security.google.com/settings/security/permissions" target="_blank" rel="noopener">https://security.google.com/settings/security/permissions</a>.</li>
+      </ul>
+
+      <h2>4. Content Safety, Family-Friendly Standards &amp; Creation Transparency</h2>
+      <p>
+        CraftyMyia is a 100% family-friendly, Safe-For-Work (SFW) digital crafting and 3D printing brand. All pins, videos, and product listings published through our studio tools are screened to ensure complete compliance with Pinterest Community Guidelines, YouTube Community Guidelines, and Etsy's 2025/2026 Creativity Standards. In accordance with platform transparency standards, every CraftyMyia product clearly discloses whether it was procedurally CAD/vector-engineered in our studio or created using human-directed AI illustration combined with studio vectorization and 3D modeling.
+      </p>
+
+      <h2>5. Data Storage, Security &amp; Retention</h2>
+      <ul>
+        <li><strong>Local Encrypted Storage:</strong> All studio OAuth 2.0 tokens and configuration records are stored on our private, access-controlled local studio infrastructure and are transmitted exclusively over TLS/HTTPS to official Pinterest and Google/YouTube API endpoints.</li>
+        <li><strong>Data Retention &amp; Deletion:</strong> OAuth tokens are retained only while our Pinterest or YouTube integration remains actively connected. If we disconnect an integration or revoke access, all associated tokens and cached identifiers are permanently deleted immediately (and within no more than 24 hours).</li>
+        <li><strong>User Rights (GDPR / CCPA):</strong> You may request access to, correction of, or complete deletion of any personal contact information you have voluntarily shared with us at any time by emailing us at the address below.</li>
+      </ul>
+
+      <h2>6. Contact Us</h2>
+      <p>
+        If you have any questions about this Privacy Policy, our digital crafting products, or our API integrations, please contact <strong>CraftyMyia Studio</strong>:
+      </p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:digitalcreatorassets@gmail.com">digitalcreatorassets@gmail.com</a> / <a href="mailto:careypmediagroup@gmail.com">careypmediagroup@gmail.com</a></li>
+        <li><strong>Official Website:</strong> <a href="https://craftymyia.com">https://craftymyia.com</a></li>
+        <li><strong>Official Etsy Shop:</strong> <a href="https://www.etsy.com/shop/CraftyMyia" target="_blank" rel="noopener">https://www.etsy.com/shop/CraftyMyia</a></li>
+      </ul>
+
+      <p style="margin-top: 28px;">
+        <a href="index.html">&larr; Return to CraftyMyia.com Home</a>
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a href="index.html">Home &amp; Catalog</a> &bull;
+      <a href="privacy.html">Privacy Policy</a> &bull;
+      <a href="terms.html">Terms of Service &amp; License</a> &bull;
+      <a href="https://www.etsy.com/shop/CraftyMyia" target="_blank" rel="noopener">Etsy Shop</a>
+    </div>
+    <p style="margin-top: 10px;">&copy; 2026 CraftyMyia (CraftyMyia.com). All rights reserved.</p>
+  </footer>
+</body>
+</html>
